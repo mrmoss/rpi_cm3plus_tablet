@@ -57,7 +57,7 @@
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
 </layers>
-<schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <libraries>
 <library name="e14_Rpi_Compute_RevC">
 <description>A library of Single Board Computers to help with prototyping and documentation. Created for www.element14.com and provided for reference only.</description>
@@ -1753,11 +1753,6 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 </segment>
 </net>
 <net name="3.3V" class="0">
-<segment>
-<pinref part="PCB1" gate="G$1" pin="166/TVDAC"/>
-<wire x1="129.54" y1="-73.66" x2="139.7" y2="-73.66" width="0.1524" layer="91"/>
-<label x="139.7" y="-73.66" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="PCB1" gate="G$1" pin="194/3V3"/>
 <wire x1="129.54" y1="-109.22" x2="134.62" y2="-109.22" width="0.1524" layer="91"/>
