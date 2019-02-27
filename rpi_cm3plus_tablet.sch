@@ -60,8 +60,8 @@
 </layers>
 <schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <libraries>
-<library name="e14_Rpi_Compute_RevC">
-<description>A library of Single Board Computers to help with prototyping and documentation. Created for www.element14.com and provided for reference only.</description>
+<library name="rpi_cm3plus_tablet">
+<description>Modified version of library of Single Board Computers to help with prototyping and documentation. Created originally by www.element14.com and added by some random guy...</description>
 <packages>
 <package name="RPI_COMPUTE">
 <description>Package for a DDR2 connector to be used with the Raspberry Pi Compute.  Example: TE Connectivity P/N: 1565917-4, Newark P/N: 08P0616, Farnell P/N: 2112525</description>
@@ -1214,7 +1214,7 @@ More information is available at http://www.element14.com/community/community/ra
 </device>
 </devices>
 </deviceset>
-<deviceset name="BSS138-N">
+<deviceset name="BSS138N">
 <gates>
 <gate name="G$1" symbol="BSS138N" x="0" y="0"/>
 </gates>
@@ -7274,13 +7274,13 @@ Source: AVX .. aphvc.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="PCB1" library="e14_Rpi_Compute_RevC" deviceset="RPI_COMPUTE" device=""/>
+<part name="PCB1" library="rpi_cm3plus_tablet" deviceset="RPI_COMPUTE" device=""/>
 <part name="X1" library="con-hirose" deviceset="FH12-15S-0.5S" device="H"/>
-<part name="U$1" library="e14_Rpi_Compute_RevC" deviceset="FSUSB42MUX" device=""/>
+<part name="U$1" library="rpi_cm3plus_tablet" deviceset="FSUSB42MUX" device=""/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="47K"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="47K"/>
 <part name="C1" library="resistor" deviceset="C-US" device="C0603K" value="0.1uF"/>
-<part name="U$2" library="e14_Rpi_Compute_RevC" deviceset="BSS138-N" device=""/>
+<part name="U$2" library="rpi_cm3plus_tablet" deviceset="BSS138N" device=""/>
 </parts>
 <sheets>
 <sheet>

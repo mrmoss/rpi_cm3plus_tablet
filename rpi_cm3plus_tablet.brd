@@ -66,8 +66,8 @@
 <wire x1="0" y1="52.06" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
-<library name="e14_Rpi_Compute_RevC">
-<description>A library of Single Board Computers to help with prototyping and documentation. Created for www.element14.com and provided for reference only.</description>
+<library name="rpi_cm3plus_tablet">
+<description>Modified version of library of Single Board Computers to help with prototyping and documentation. Created originally by www.element14.com and added by some random guy...</description>
 <packages>
 <package name="RPI_COMPUTE">
 <description>Package for a DDR2 connector to be used with the Raspberry Pi Compute.  Example: TE Connectivity P/N: 1565917-4, Newark P/N: 08P0616, Farnell P/N: 2112525</description>
@@ -2115,18 +2115,18 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="PCB1" library="e14_Rpi_Compute_RevC" package="RPI_COMPUTE" value="RPI_COMPUTE" x="38.1" y="44.45" rot="R180"/>
+<element name="PCB1" library="rpi_cm3plus_tablet" package="RPI_COMPUTE" value="RPI_COMPUTE" x="38.1" y="44.45" rot="R180"/>
 <element name="X1" library="con-hirose" package="FH12-15S-0.5SH" value="FH12-15S-0.5SH" x="38.1" y="3.81">
 <attribute name="OC_FARNELL" value="1324545" x="38.1" y="3.81" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="38.1" y="3.81" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="38.1" y="3.81" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="38.1" y="3.81" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$1" library="e14_Rpi_Compute_RevC" package="MSOP-10" value="FSUSB42MUX" x="13.716" y="6.604" rot="R90"/>
+<element name="U$1" library="rpi_cm3plus_tablet" package="MSOP-10" value="FSUSB42MUX" x="13.716" y="6.604" rot="R90"/>
 <element name="R1" library="resistor" package="R0603" value="47K" x="19.939" y="2.921"/>
 <element name="R2" library="resistor" package="R0603" value="47K" x="24.892" y="2.921"/>
 <element name="C1" library="resistor" package="C0603K" value="0.1uF" x="19.812" y="7.366"/>
-<element name="U$2" library="e14_Rpi_Compute_RevC" package="SOT-23" value="BSS138-N" x="24.892" y="8.255"/>
+<element name="U$2" library="rpi_cm3plus_tablet" package="SOT-23" value="BSS138N" x="24.892" y="8.255"/>
 </elements>
 <signals>
 <signal name="GND">
