@@ -1,0 +1,5 @@
+USB
+	1x 512-BSS138
+	1x 512-FSUSB42MUX 
+	2x 47K 0603 resistor
+	1x 0.1uF 0603 capacitor
